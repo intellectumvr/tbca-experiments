@@ -1,0 +1,10 @@
+target/
+**/*.env
+**/*.key
+**/*.pem
+*.log
+.DS_Store
+venv/
+__pycache__/
+*.pyc
+node_modules/

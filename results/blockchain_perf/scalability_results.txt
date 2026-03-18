@@ -1,0 +1,33 @@
+
+Finished `test` profile [unoptimized + debuginfo] target(s) in 0.27s
+  Running unittests src/lib.rs (target/debug/deps/experiments-536fe1ed3b101348)
+
+running 1 test
+Testing with 1 agents...
+  160.103024374949 tasks/s, 22ms mean, 24ms p95, 100.0% success
+Testing with 5 agents...
+  38.21466803156722 tasks/s, 110ms mean, 120ms p95, 100.0% success
+Testing with 10 agents...
+  19.566819114102405 tasks/s, 216ms mean, 234ms p95, 100.0% success
+Testing with 20 agents...
+  9.884947660857865 tasks/s, 442ms mean, 478ms p95, 100.0% success
+Testing with 50 agents...
+  3.9811483326486585 tasks/s, 1122ms mean, 1163ms p95, 100.0% success
+
+=== Agent Scalability (LaTeX) ===
+
+1 & 160.1 & 22 ms & 24 ms & 100.0\% \\
+5 & 38.2 & 110 ms & 120 ms & 100.0\% \\
+10 & 19.6 & 216 ms & 234 ms & 100.0\% \\
+20 & 9.9 & 442 ms & 478 ms & 100.0\% \\
+50 & 4.0 & 1122 ms & 1163 ms & 100.0\% \\
+test blockchain_benchmarks::scalability_agents::tests::test_agent_scalability ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 9 filtered out; finished in 4.36s
+
+     Running unittests src/bin/run_experiments.rs (target/debug/deps/run_experiments-f321115b907c6f91)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

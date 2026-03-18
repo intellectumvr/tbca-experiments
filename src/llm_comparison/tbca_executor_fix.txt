@@ -1,0 +1,12 @@
+        // Step 3: Build knowledge base with basic legal/economic rules
+        let mut kb = HashSet::new();
+        
+        // Add some basic rules based on task domain
+        if task.description.contains("contract") || task.description.contains("deliver") {
+            kb.insert(PKU {
+                premise: "delivered_on_time".to_string(),
+                conclusion: "contract_fulfilled".to_string(),
+                solution: "legal_rule_1".to_string(),
+                confidence: 9000,
+            });
+        }

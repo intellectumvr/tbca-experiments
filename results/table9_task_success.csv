@@ -1,0 +1,9 @@
+Batch,Architecture,LLM,Avg_Iterations_Mean,Avg_Iterations_SD
+1,TBCA,All,2.00,0.60
+1,ReAct+RAG,All,2.07,0.31
+2,TBCA,All,2.87,1.62
+2,ReAct+RAG,All,1.73,0.92
+3,TBCA,All,2.27,0.58
+3,ReAct+RAG,All,1.07,0.12
+4,TBCA,All,3.67,0.92
+4,ReAct+RAG,All,1.27,0.31

@@ -1,0 +1,12 @@
+Testing KB with 5000 PKUs...
+  1.4 ms ± 0.3 ms, 65.4% cache hit
+Testing KB with 50000 PKUs...
+  16.9 ms ± 0.9 ms, 60.0% cache hit
+Testing KB with 500000 PKUs...
+  185.7 ms ± 1.5 ms, 60.0% cache hit
+=== KB Scalability (LaTeX) ===
+1 MB & 1 $\pm$ 0 ms & 0.000 GB & 65.4\% \\
+10 MB & 17 $\pm$ 1 ms & 0.001 GB & 60.0\% \\
+100 MB & 186 $\pm$ 2 ms & 0.012 GB & 60.0\% \\
+test blockchain_benchmarks::scalability_knowledge::tests::test_kb_scalability ... ok
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 7 filtered out; finished in 22.18s

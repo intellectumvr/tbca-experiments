@@ -1,0 +1,19 @@
+running 1 test
+=== LaTeX Table Data ===
+1. Task Submission & 0 & 0 & 0 \\
+2. Context Retrieval & 1 & 2 & 8 \\
+\quad - Cached & 15 & 15 & 16 \\
+\quad - Uncached & 1 & 2 & 8 \\
+3. Hypothesis Generation & 350 & 375 & 399 \\
+4. Logic Validation & 0 & 0 & 0 \\
+5. Decision Check & 0 & 0 & 0 \\
+6. Blockchain Storage & 2000 & 2000 & 2001 \\
+7. Result Return & 0 & 0 & 0 \\
+\midrule
+Network Overhead & 51 & 75 & 100 \\
+\midrule
+\textbf{Total (Best Case)} & \textbf{2416} & - & - \\
+\textbf{Total (Typical)} & - & \textbf{2465} & - \\
+\textbf{Total (Worst Case)} & - & - & \textbf{2508} \\
+test cognitive_loop::phase_timing::tests::test_phase_measurements ... ok
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 123.63s
